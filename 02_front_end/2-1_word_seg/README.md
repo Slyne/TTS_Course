@@ -9,7 +9,7 @@ cd CRF++-0.58
 ./configure --prefix=$PWD/build
 make
 make install
-export PATH=CRF++-0.58/build/bin/:$PATH
+export PATH=$PWD/CRF++-0.58/build/bin/:$PATH
 ```
 ### 2.2 数据准备
 文件夹中提供了来自人民日报的两份不同大小的数据集。读者根据自己设备的情况选择使用的数据集。
